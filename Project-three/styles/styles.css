@@ -1,0 +1,61 @@
+html,
+body{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100wv;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%238394a6' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container{
+    background-color: rgba(255,255,255,0.5);
+    flex: 1;
+    display: flex;
+    /* one the primary felx direction, align the items to center */
+    justify-content: center;
+    /* one the opposite flex direction, align the items to center */
+    align-items: center;
+    width: 80%;
+    margin: 1% 0% 1% 10% ;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.number{
+    padding: 2em;
+    background-color: salmon;
+    border-radius: 50%;
+    font-size: 2em;
+    box-sizing: border-box;
+}
+
+
+
+.numbers{
+    padding: 1em;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1em;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
+    margin-left: 10px;
+}
+
+.numbers:hover{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
